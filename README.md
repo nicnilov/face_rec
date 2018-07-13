@@ -1,7 +1,7 @@
 # face_rec
 A collection of script supporting face recognition.
 
-These scripts prepare input files and analyze outcome of the actual [face_recognition](https://github.com/ageitgey/face_recognition) processor. The image data comes from a custom source and is not uploaded to this repo.
+These scripts prepare input files for and analyze outcome of the actual [face_recognition](https://github.com/ageitgey/face_recognition) processor. The image data comes from a custom source and is not uploaded to this repo.
 
 Training and test images are expected to reside in `face_train` directory and have the following naming scheme:
 
@@ -12,7 +12,7 @@ Training and test images are expected to reside in `face_train` directory and ha
 6005-t.jpg
 ```
 
-where `6005` is the label (alternatively could be a person name), `-` is a separator, and `1, 2, and 3` are indexes of the different images of the same person, and `t` is a test image which is never used in training.
+where `6005` is the label (alternatively could be a person name), `-` is a separator, and `1, 2, and 3` are suffixes of the different images of the same person, and `t` is a test image which is never used in training.
 
 ## Prerequisites
 
